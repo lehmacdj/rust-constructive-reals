@@ -48,7 +48,7 @@ impl Real {
 
 impl From<i32> for Real {
     fn from(n: i32) -> Self {
-        fn new_n(n: BigInt, env: Capture) -> BigRational {
+        fn new_n(_: BigInt, env: Capture) -> BigRational {
             env.q[0].clone()
         }
         Real {
