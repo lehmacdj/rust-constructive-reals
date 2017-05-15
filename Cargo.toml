@@ -1,0 +1,7 @@
+[package]
+name = "real_numbers"
+version = "0.1.0"
+authors = ["Devin Lehmacher <lehmacdj@gmail.com>"]
+
+[dependencies]
+num = "*"
